@@ -57,4 +57,4 @@ NumPy’s vectorized operations (implemented in C) are **orders of magnitude fas
 
 2. Run the code in VS Code using a Jupyter notebook (ipynb).
 
-3. Benchmark your own code with %timeit in Jupyter.  
+3. Benchmark your own code with %timeit in Jupyter.     
