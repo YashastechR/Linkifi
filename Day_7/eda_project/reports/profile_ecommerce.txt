@@ -1,0 +1,59 @@
+======================================================================
+  DATA PROFILE: ECOMMERCE
+======================================================================
+
+  Rows          : 5,000
+  Columns       : 13
+  Total cells   : 65,000
+  Duplicate rows: 0
+  Memory        : 735.0 KB
+
+  Total missing : 800 (1.23%)
+
+  COLUMN-LEVEL ANALYSIS
+  ------------------------------------------------------------------
+
+  [order_id]  dtype=str  missing=0(0.0%)  unique=5000
+
+  [date]  dtype=datetime64[us]  missing=0(0.0%)  unique=729
+    Range: 2022-01-01 00:00:00 → 2023-12-31 00:00:00
+
+  [category]  dtype=str  missing=0(0.0%)  unique=7
+
+  [product_id]  dtype=str  missing=0(0.0%)  unique=499
+
+  [price]  dtype=float64  missing=0(0.0%)  unique=4972
+    min=251  max=2.83e+05  mean=5.7e+03  median=2.14e+03
+    std=1.1e+04  IQR=3.86e+03  skew=10.317  kurt=201.382
+    Q1=1.14e+03  Q3=5e+03
+
+  [quantity]  dtype=int64  missing=0(0.0%)  unique=27
+    min=1  max=185  mean=5.46  median=5
+    std=8.56  IQR=4  skew=15.159  kurt=260.859
+    Q1=3  Q3=7
+
+  [discount_pct]  dtype=float64  missing=150(3.0%)  unique=7
+    min=0  max=30  mean=8.3  median=5
+    std=9.24  IQR=15  skew=0.860  kurt=-0.418
+    Q1=0  Q3=15
+
+  [region]  dtype=str  missing=0(0.0%)  unique=5
+
+  [payment_method]  dtype=str  missing=0(0.0%)  unique=5
+
+  [order_status]  dtype=str  missing=0(0.0%)  unique=4
+
+  [customer_rating]  dtype=float64  missing=400(8.0%)  unique=5
+    min=1  max=5  mean=3.72  median=4
+    std=1.15  IQR=2  skew=-0.710  kurt=-0.285
+    Q1=3  Q3=5
+
+  [delivery_days]  dtype=float64  missing=250(5.0%)  unique=14
+    min=1  max=14  mean=7.36  median=7
+    std=4.05  IQR=7  skew=0.047  kurt=-1.222
+    Q1=4  Q3=11
+
+  [revenue]  dtype=float64  missing=0(0.0%)  unique=4995
+    min=214  max=6.15e+06  mean=2.89e+04  median=9.03e+03
+    std=1.26e+05  IQR=1.86e+04  skew=35.003  kurt=1525.527
+    Q1=3.97e+03  Q3=2.25e+04

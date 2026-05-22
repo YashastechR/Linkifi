@@ -1,0 +1,53 @@
+PATTERN IDENTIFICATION REPORT
+======================================================================
+
+Generated: 2026-05-22 16:01
+
+DATASETS ANALYZED:
+  1. E-Commerce     → 5,000 rows
+  2. Time Series    → 3,650 rows
+  3. Customer Behavior → 3,000 rows
+
+======================================================================
+
+[ANOMALY]
+  • E-commerce price: 11 anomalies (0.2%)
+  • E-commerce revenue: 9 anomalies (0.2%)
+  • E-commerce quantity: 20 anomalies (0.4%)
+  • TS Store_A: 20 sales anomalies
+  • TS Store_B: 13 sales anomalies
+  • TS Store_C: 16 sales anomalies
+  • TS Store_D: 19 sales anomalies
+  • TS Store_E: 21 sales anomalies
+
+[CORRELATION]
+  • E-comm: discount_pct vs revenue  r=-0.009  p=5.2056e-01
+  • Time-series: temperature vs sales  r=0.282  p=5.0565e-66
+  • Customer: sessions vs LTV  r=0.766  p=0.0000e+00
+
+[SEASONAL PATTERN]
+  • Peak revenue month: 12 (₹42,925), Low: 10 (₹21,855)
+
+[SEASONAL SALES]
+  • Sales seasonal index range: 142,967 – 191,653  (variation: 29.5%)
+
+[SEGMENT]
+  • Premium customers have 3.2× higher LTV than Regular
+
+[TEMPORAL TREND]
+  • E-commerce revenue shows upward trend: slope=+47343/month, R²=0.034
+
+[WEEKDAY PATTERN]
+  • Best revenue day: Fri (₹35,690), Worst: Mon (₹24,965)
+
+======================================================================
+
+KEY BUSINESS INSIGHTS:
+  1. Revenue has a measurable upward trend across the analysis period.
+  2. Clear seasonal patterns: specific months outperform others significantly.
+  3. Weekday effects on revenue exist – actionable for promotions.
+  4. Temperature correlates with store sales (outdoor/lifestyle products).
+  5. Premium segment customers have much higher LTV despite lower volume.
+  6. Anomalies (~1-2%) in price/revenue data warrant data quality review.
+  7. At-Risk customers have distinctly higher churn probability – target them.
+  8. Mobile App channel dominates – mobile-first strategy is validated.

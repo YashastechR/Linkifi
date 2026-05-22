@@ -1,0 +1,72 @@
+======================================================================
+  DATA PROFILE: CUSTOMER
+======================================================================
+
+  Rows          : 3,000
+  Columns       : 15
+  Total cells   : 45,000
+  Duplicate rows: 0
+  Memory        : 461.1 KB
+
+  Total missing : 644 (1.43%)
+
+  COLUMN-LEVEL ANALYSIS
+  ------------------------------------------------------------------
+
+  [customer_id]  dtype=str  missing=0(0.0%)  unique=3000
+
+  [registration_date]  dtype=datetime64[us]  missing=0(0.0%)  unique=1464
+    Range: 2019-01-02 00:00:00 → 2023-12-30 00:00:00
+
+  [age]  dtype=float64  missing=120(4.0%)  unique=53
+    min=18  max=71  mean=34.9  median=34
+    std=11  IQR=16  skew=0.358  kurt=-0.402
+    Q1=26  Q3=42
+
+  [gender]  dtype=str  missing=0(0.0%)  unique=3
+
+  [city]  dtype=str  missing=0(0.0%)  unique=7
+
+  [annual_income]  dtype=float64  missing=210(7.0%)  unique=144
+    min=1e+05  max=4.91e+05  mean=1.09e+05  median=1e+05
+    std=2.73e+04  IQR=0  skew=5.041  kurt=35.894
+    Q1=1e+05  Q3=1e+05
+
+  [segment]  dtype=str  missing=0(0.0%)  unique=5
+
+  [lifetime_value]  dtype=float64  missing=0(0.0%)  unique=2998
+    min=1.51e+03  max=9.99e+04  mean=1.93e+04  median=1.11e+04
+    std=2.07e+04  IQR=1.75e+04  skew=2.078  kurt=3.900
+    Q1=6.34e+03  Q3=2.39e+04
+
+  [total_orders]  dtype=int64  missing=0(0.0%)  unique=28
+    min=0  max=27  mean=9.43  median=8
+    std=4.48  IQR=5  skew=1.021  kurt=0.732
+    Q1=6  Q3=11
+
+  [avg_order_value]  dtype=float64  missing=0(0.0%)  unique=2986
+    min=108  max=2.68e+04  mean=2.41e+03  median=1.37e+03
+    std=2.88e+03  IQR=2.04e+03  skew=2.813  kurt=10.726
+    Q1=719  Q3=2.76e+03
+
+  [preferred_channel]  dtype=str  missing=0(0.0%)  unique=5
+
+  [sessions_per_month]  dtype=int64  missing=0(0.0%)  unique=48
+    min=1  max=99  mean=18.4  median=15
+    std=12.8  IQR=7  skew=1.940  kurt=3.862
+    Q1=12  Q3=19
+
+  [churn_probability]  dtype=float64  missing=0(0.0%)  unique=2317
+    min=0.0053  max=0.849  mean=0.287  median=0.266
+    std=0.156  IQR=0.226  skew=0.567  kurt=-0.176
+    Q1=0.163  Q3=0.389
+
+  [satisfaction_score]  dtype=float64  missing=314(10.5%)  unique=5
+    min=1  max=5  mean=3.86  median=4
+    std=1.13  IQR=2  skew=-0.936  kurt=0.171
+    Q1=3  Q3=5
+
+  [days_since_last_purchase]  dtype=int64  missing=0(0.0%)  unique=244
+    min=1  max=362  mean=48.2  median=33
+    std=63.5  IQR=32.2  skew=3.150  kurt=9.973
+    Q1=17  Q3=49.2

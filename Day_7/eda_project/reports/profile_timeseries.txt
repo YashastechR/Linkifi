@@ -1,0 +1,49 @@
+======================================================================
+  DATA PROFILE: TIMESERIES
+======================================================================
+
+  Rows          : 3,650
+  Columns       : 8
+  Total cells   : 29,200
+  Duplicate rows: 0
+  Memory        : 253.2 KB
+
+  Total missing : 420 (1.44%)
+
+  COLUMN-LEVEL ANALYSIS
+  ------------------------------------------------------------------
+
+  [date]  dtype=datetime64[us]  missing=0(0.0%)  unique=730
+    Range: 2022-01-01 00:00:00 → 2023-12-31 00:00:00
+
+  [store]  dtype=str  missing=0(0.0%)  unique=5
+
+  [sales]  dtype=float64  missing=105(2.9%)  unique=3545
+    min=1.49e+04  max=6.62e+05  mean=1.65e+05  median=1.55e+05
+    std=5.63e+04  IQR=5.68e+04  skew=2.846  kurt=17.283
+    Q1=1.32e+05  Q3=1.89e+05
+
+  [transactions]  dtype=float64  missing=105(2.9%)  unique=826
+    min=38  max=2.58e+03  mean=501  median=458
+    std=215  IQR=241  skew=1.874  kurt=7.612
+    Q1=356  Q3=597
+
+  [avg_basket]  dtype=float64  missing=105(2.9%)  unique=3494
+    min=300  max=1.5e+03  mean=889  median=886
+    std=347  IQR=604  skew=0.038  kurt=-1.186
+    Q1=585  Q3=1.19e+03
+
+  [foot_traffic]  dtype=float64  missing=105(2.9%)  unique=1616
+    min=100  max=2e+03  mean=1.04e+03  median=1.04e+03
+    std=552  IQR=957  skew=0.024  kurt=-1.204
+    Q1=566  Q3=1.52e+03
+
+  [temperature]  dtype=float64  missing=0(0.0%)  unique=431
+    min=-7.3  max=42.7  mean=20  median=20.1
+    std=11.1  IQR=20.2  skew=-0.010  kurt=-1.274
+    Q1=9.8  Q3=30
+
+  [is_holiday]  dtype=int64  missing=0(0.0%)  unique=2
+    min=0  max=1  mean=0.302  median=0
+    std=0.459  IQR=1  skew=0.863  kurt=-1.255
+    Q1=0  Q3=1
